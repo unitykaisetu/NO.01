@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang= "ja">
+       <head>
+          <meta>
+              <meta charset="UTF-8">
+              <title>
+                 Unity ゲームの部屋
+              </title>
+              <meta name="description" content="Unityで作成したゲームの無料配布やUnityに関する記事を書いています">
+              <link rel="icon" type="image/png" href="データ/favicon.png">
+          </meta>
+          <body>
+                <header class="title">
+                  <h1 style=text align = "center">Unity ゲームの部屋</h1>
+                </header>
+                <div>2021/12/27</div>
+                <p>
+                    <div>皆さん初めまして</div>
+                    <div>このサイトでは、Unityで作成したゲームの無料配布やUnityに関する記事を書いています。</div>
+                    <div>ホームページを書くのは初めてなので、定期的な投稿は難しいと思いますが頑張りたいと思います。</div>
+                </p>
+                <div>現在シューティングゲームを作成しています。</div>
+                <div>↓画質が悪いですが、実際はかなり綺麗です。</div>
+                <div class="aaa">
+                    <article1>
+                        <div>タイトル画面</div>
+                        <img src="データ/キャプチャ1.jpg"alt="asteroid shooting game" width="95%">
+                    </article1>
+                    <article2>
+                        <div>プレイ画面</div>
+                        <img src="データ/キャプチャ2.jpg"alt="asteroid shooting game" width="95%">
+                    </article2>
+                </div>
+                <div class="bbb">次のページ</div>
+                <div class="bbb"><a href="https:/unitykaisetu.github.io/NO.02/" class="Item"><span class="Item-Text">Unity ゲームの部屋　第一回</span></a></div>
+
+                  <style>
+                     h1{
+                       background-image: url(データ/ヘッダー.jpg);
+                       background-position: center top;
+                       width: auto;
+                       height: auto;
+                       padding: 7%;
+                       color: blue;
+                       font-size: 400%;
+                     }
+                     body{
+                       background: #8AE7E7;
+                     }
+                     div{
+                       text-align: center;
+                       font-size: 125%;
+                     }
+                     article1{
+                       width: 50%;
+                     }
+                     article2{
+                       width: 50%;
+                     }
+                     .aaa{
+                       display: flex;
+                       justify-content: space-between;
+                       margin-bottom: 50px;
+                       background: white;
+                       padding: 1%;
+                     }
+                     .bbb{
+                       background: white;
+                       padding: 1.5%;
+                       font-size: 170%;
+                     }
+                     .Item-Text{
+                       position: relative;
+                       z-index: 1;
+                       font-size: 120%;
+                     }
+                    .Item-Text:after{
+                       content: '';
+                       position: absolute;
+                       left: 0;bottom: 0;
+                       width: 0%;/*初期状態では下線非表示*/
+                       height: 5px;/*下線の高さ*/
+                       background: blue;/*下線の色*/
+                       transition: all 0.7s;/*アニメーション速度*/
+                    }
+                    .Item:hover .Item-Text:after{
+                       width: 100%;
+                    }
+                    .Item{
+                      text-decoration: none;
+                      color: Blue;
+                    }
+                  </style>
+          </body>
+       </head>
+</html>
